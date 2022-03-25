@@ -19,23 +19,51 @@
 <body>
     <!-- Akhir Navigasi -->
 
-    <header class="sticky-top">
-        <div class="container mt-3">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/">LOGO</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <div class="navbar-nav sidenav"></div>
-                    </div>
-                </div>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger p-0">
+        <div class="container-fluid">
+            <a class="navbar-brand p-2" href="#">
+                <img src="./assets/logo-untag.png" alt="" width="80" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="navbar-nav sidenav"></div>
+                </ul>
+                <span class="navbar-text">
+                    <form class="d-flex">
+                        <div class="row-md-2">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <ul class="navbar-nav justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">AGENDA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">HUBUNGI KAMI</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">BERITA</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        BAHASA
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
+                                        <li><a class="dropdown-item" href="#">English</a></li>
+                                        <li><a class="dropdown-item" href="#">Wibu</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </span>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <main id="body-content">
 

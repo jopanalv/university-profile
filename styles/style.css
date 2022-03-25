@@ -3,3 +3,27 @@
     height: 90px;
     background-color: #c4c4c4;
 }
+
+.navbar-brand {
+    background-image: url('/assets/brand-bg.svg');
+    background-size: 120%;
+}
+
+.rec-sq {
+    display: flex;
+    gap: 2em;
+    margin: 2em;
+}
+
+.square {
+    width: 15rem;
+    height: 15rem;
+    background: rgb(255, 123, 0);
+}
+
+.rectangle {
+    width: 24rem;
+    height: 14rem;
+    background: rgb(0, 119, 128);
+    border-radius: 10px;
+}
