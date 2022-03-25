@@ -1,3 +1,9 @@
+.logo {
+    width: 200px;
+    height: 90px;
+    background-color: #c4c4c4;
+}
+
 .navbar-brand {
     background-image: url('/assets/brand-bg.svg');
     background-size: 120%;
