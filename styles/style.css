@@ -4,6 +4,18 @@
     background-color: #c4c4c4;
 }
 
+.box {
+    
+    margin: 0px auto;
+    padding: 30px;
+  }
+.box-content{
+    
+        width: 100%;
+        /* background: rgb(195, 195, 199); */
+        float: left;
+      
+}
 .navbar-brand {
     background-image: url('/assets/brand-bg.svg');
     background-size: 120%;
