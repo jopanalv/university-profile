@@ -19,9 +19,9 @@
 <body>
     <!-- Akhir Navigasi -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger p-0 sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand p-2" href="#">
+            <a class="navbar-brand p-2" href="/">
                 <img src="./assets/logo-untag.png" alt="" width="80" height="80">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -30,57 +30,27 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <div class="navbar-nav sidenav"></div>
+                    <div class="navbar-nav sidenav gap-3"></div>
                 </ul>
-                <span class="navbar-text">
-                    <form class="d-flex">
-                        <div class="row-md-2">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <ul class="navbar-nav justify-content-end">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">AGENDA</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">HUBUNGI KAMI</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">BERITA</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        BAHASA
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
-                                        <li><a class="dropdown-item" href="#">English</a></li>
-                                        <li><a class="dropdown-item" href="#">Wibu</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </form>
-                </span>
             </div>
         </div>
     </nav>
 
-    <main id="body-content">
+    <main id="body-content"></main>
 
-    </main>
     <footer class="bg-danger">
         <div class="container">
             <div class="row text-white pt-4">
-                <div class="col-lg-3 col-sm-12">
+                <div class="col-md">
                     <div class="logo"></div>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-md">
                     <div class="contact text-center">
                         <p>Jalan Semolowaru 45 Surabaya <br> 60118, Jawa Timur, Indonesia <br> 031 593 1800 <br>
                             humas@untag-sby.ac.id</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-12">
+                <div class="col-md">
                     <div class="sosmed float-lg-end">
                         <p>Sosial Media</p>
                         <div class="d-flex">
@@ -92,10 +62,12 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <hr class="text-white" style="height: 5px;">
-            <p class="text-center text-white pb-4">Copyright @ 2022 by Team Gobber</p>
+            <div class="row">
+                <div class="col">
+                    <hr class="text-white" style="height: 5px;">
+                    <p class="text-center text-white">Copyright @ 2022 by Team Gobber</p>
+                </div>
+            </div>
         </div>
     </footer>
 

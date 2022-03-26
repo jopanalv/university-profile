@@ -1,326 +1,143 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
-    <title>university profile</title>
-
-    <link rel="stylesheet" href="../styles/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-
-<body>
-    <!-- Akhir Navigasi -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger p-0">
-        <div class="container">
-            <a class="navbar-brand p-2" href="/">
-                <img src="../assets/logo-untag.png" alt="" width="80" height="80">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <div class="navbar-nav sidenav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#home" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                TENTANG UNTAG
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#home" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                PROGRAM STUDI
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#home" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                LINK
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#home" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                PENILITIAN
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </div>
-                </ul>
-                <span class="navbar-text">
-                    <form class="d-flex">
-                        <div class="row-md-2">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <ul class="navbar-nav justify-content-end">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">AGENDA</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">HUBUNGI KAMI</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">BERITA</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        BAHASA
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
-                                        <li><a class="dropdown-item" href="#">English</a></li>
-                                        <li><a class="dropdown-item" href="#">Wibu</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </form>
-                </span>
+<div class="container-fluid bg-secondary p-5">
+    <h1 class="fw-bold text-center">ABOUT UNTAG</h1>
+    <div class="d-flex justify-content-center">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+            aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item text-dark">Home</li>
+                <li class="breadcrumb-item active text-dark" aria-current="page">About</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="container p-4 mb-4 bg-white shadow-sm rounded-3" style="margin-top: -40px;">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="nav d-flex flex-column nav-pills border" id="v-pills-tab" role="tablist"
+                aria-orientation="vertical">
+                <button class="nav-link border-bottom active" id="v-pills-first-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
+                    aria-selected="true">Visi, Misi & Tujuan</button>
+                <button class="nav-link border-bottom" id="v-pills-second-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
+                    aria-selected="false">Sejarah</button>
+                <button class="nav-link border-bottom" id="v-pills-third-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
+                    aria-selected="false">Pimpinan</button>
+                <button class="nav-link" id="v-pills-fourth-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fourth"
+                    type="button" role="tab" aria-controls="v-pills-fourth" aria-selected="false">Akreditasi
+                    Institusi</button>
             </div>
         </div>
-    </nav>
-    <div class="container-fluid bg-secondary p-5">
-        <h1 class="fw-bold text-center">ABOUT UNTAG</h1>
-        <div class="d-flex justify-content-center">
-            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
-                aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item text-dark">Home</li>
-                    <li class="breadcrumb-item active text-dark" aria-current="page">About</li>
-                </ol>
-            </nav>
+        <div class="col-lg-9">
+            <div class="tab-content p-4" id="v-pills-tabContent">
+                <div class="tab-pane fade show active text-" id="v-pills-first" role="tabpanel"
+                    aria-labelledby="v-pills-first-tab">
+                    <h3>VISI, MISI & TUJUAN</h3>
+                    <div class="divider"></div>
+                    <h5>VISI</h5>
+                    <ul>
+                        <li>Terwujudnya Universitas Unggul berbasis Nilai dan Karakter Bangsa pada Tahun 2035
+                        </li>
+                    </ul>
+                    <h5>MISI</h5>
+                    <ol type="1">
+                        <li>Melaksanakan Tri Dharma Perguruan Tinggi yang mengacu pada standar pendidikan tinggi
+                            berskala nasional, regional, dan internasional.</li>
+                        <li>Menguatkan Tata Kelola Universitas yang baik (Good University Governance).</li>
+                        <li>Memberdayakan (empowering) sumberdaya universitas serta menjalin jejaring
+                            (networking) dengan institusi dalam negeri dan luar negeri untuk mengoptimalkan
+                            terselenggaranya Tri Dharma Perguruan Tinggi.</li>
+                        <li>Menanamkan dan menumbuhkan nilai-nilai moral, akademik, budaya, dan karakter bangsa
+                            Indonesia bagi sivitas akademika</li>
+                    </ol>
+                    <h5>TUJUAN</h5>
+                    <ol type="1">
+                        <li>Menghasilkan lulusan yang kompetensinya diakui secara nasional maupun internasional.
+                        </li>
+                        <li>Menghasilkan karya-karya ilmiah yang mutunya diakui secara nasional maupun
+                            internasional.</li>
+                        <li>Menerapkan karya-karya inovatif produktif melalui kegiatan pengabdian kepada
+                            masyarakat dalam rangka peningkatan kualitas kehidupan manusia.</li>
+                        <li>Menjalankan Tata Kelola yang baik yang mengacu pada pengelolaan berstandar
+                            Internasional (Good University Governance).</li>
+                        <li>Memiliki keunggulan SDM yang mampu diberdayakan untuk penguatan kompetensi Untag
+                            Surabaya.</li>
+                        <li>Memiliki jejaring kerjasama yang mampu mengoptimalkan tercapainya Visi, Misi Untag
+                            Surabaya.</li>
+                        <li>Memiliki civitas akademika yang beridentitas nilai dan karakter bangsa Indonesia.
+                        </li>
+                    </ol>
+                </div>
+                <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab">
+                    <h3>SEJARAH</h3>
+                    <div class="divider"></div>
+                    <div style="text-align: justify; text-indent: 40px;">
+                        <p>
+                            Badan penyelengara pendidikan adalah Yayasan Perguruan 17 agustus 1945 Surabaya yang
+                            disingkat YPTA. YPTA didirikan pada tanggal 17 Agustus 1954 yang pada awalnya
+                            membina
+                            SMA dan SGA. Yayasan didirikan oleh beberapa orang yang berpandangan nasionalis yang
+                            menyadari kondisi masyarakat dan bangsa Indonesia yang baru terlepas dari
+                            penjajahan.
+                            Para pendiri yayasan menyadari bahwa pada masa penjajahan Belanda maupun Jepang,
+                            masyarakat yang dapat menikmati pendidikan sangat terbatas. Oleh karena itu
+                            didirikan
+                            yayasan yang bergerak di bidang pendidikan dalam rangka : "Ikut seta mencerdaskan
+                            kehidupan bangsa dalam rangka mengentas masyarakat dari kebodohan dan kemiskinan
+                            untuk
+                            mewujudkan masyarakat adil dan makmur". Pada tanggal 10 november 1958, YPTA membuka
+                            akademi administrasi Negara dan Niaga (AANN) dengan jumlah mahasiswa pada tahun
+                            pertama
+                            sebanyak 80 orang. Pemilihan jurusan disesuaikan dengan kebutuhan masyarakat pada
+                            saat
+                            itu dan penetapan kurikulum sesuai dengan arahan dari Lembaga Administrasi Negara
+                            (LAN)
+                            di Jakarta.
+                        </p>
+                        <p>
+                            Pada tahun 1962 AANN Surabaya digabung dengan Universitas 17 Agustus 1945 (UNITA)
+                            Jakarta dengan kedudukan sebagai cabang dengan nama “Akademi Administrasi Negara dan
+                            Niaga Universitas 1945 Cabang Surabaya disingkat AKADIANN.
+                        </p>
+                        <p>
+                            Pada tahun 1964 AKADIANN berkembang menjadi Fakultas Ketatanegaraan dan
+                            Ketataniagaan
+                            (FKK). Selama periode 1963/1966 berdiri Fakultas Ekonomi, Fakultas Teknik Sipil,
+                            Fakultas Sosial Politik Jurusan Publisistik dan Fakultas Kedokteran Hewan. Semua
+                            fakultas tersebut bersatus terdaftar dan merupakan cabang dari Universitas 17
+                            Agustus
+                            1945 Jakarta.
+                        </p>
+                        <p>Dengan dibentuknya Yayasan Perguruan 17 Agustus 1945 Surabaya dengan Akta Notaris R.
+                            Yuliman Reksohadi No. 14 tanggal 30 Mei 1966 dan mendasarkan pada UU No. 22 Tahun
+                            1961 tentang Perguruan Tinggi (Lembaran Negara Tahun 1961 No. 302) Untag Surabaya
+                            memisahkan diri dan tidak lagi merupakan cabang dari Untag Jakarta.</p>
+                        <p>Pada tanggal 5 Oktober 1977 diterbitkan Surat Keputusan Rektor No. 789/UNTAG/K/1977
+                            yang menetapkan Statuta Untag Surabaya dan menyatakan tidak berlaku lagi Statuta
+                            Umum Universitas 17 Agustus 1945 Induk Jakarta yang ditetapkan di Semarang pada
+                            tanggal 6 Juli 1969.</p>
+                        <p>Dalam perjalanannya, Fakultas-Fakultas tersebut ada yang mengalami perubahan,
+                            penutupan, perkembangan dan penambahan sampai keberadaannya yang sekarang. Dengan
+                            berlakunya UU No. 2 Tahun 1989 (Lembar Negara tahun 1989 No. 6) tentang Sistem
+                            Pendidikan Nasional, maka UU No. 2 Tahun 1961 dinyatakan tidak berlaku lagi. Statuta
+                            Untag Surabaya yang telah disahkan oleh Menteri Pendidikan dan kebudayaan RI dengan
+                            SK. No.0722/u/1977, Tanggal 31 Desember 1977 pun harus disesuaikan kembali. Statuta
+                            Untag Surabaya sekarang adalah statuta yang mengalami perubahan sesuai dengan
+                            perkembangan yang ada terutama UU No. 20 Tahun 2003 dan PP No. 60. Tahun 1999.</p>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab">
+                    <h3>PIMPINAN</h3>
+                    <div class="divider"></div>
+                    <img src="https://untag-sby.ac.id/uploads/media/Struktural_2021-rev5.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="tab-pane fade" id="v-pills-fourth" role="tabpanel" aria-labelledby="v-pills-fourth-tab">
+                    <h3>AKREDITASI INSTITUSI</h3>
+                    <div class="divider"></div>
+                    <img src="https://untag-sby.ac.id/uploads/media/Akreditasi_2018.png" alt="" width="100%">
+                </div>
+            </div>
         </div>
     </div>
-    <main>
-        <div class="container p-4 mb-4 bg-white shadow-sm rounded-3" style="margin-top: -40px;">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="nav d-flex flex-column nav-pills border" id="v-pills-tab" role="tablist"
-                        aria-orientation="vertical">
-                        <button class="nav-link border-bottom" id="v-pills-first-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-first" type="button" role="tab" aria-controls="v-pills-first"
-                            aria-selected="true">Visi, Misi & Tujuan</button>
-                        <button class="nav-link border-bottom" id="v-pills-second-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-second" type="button" role="tab" aria-controls="v-pills-second"
-                            aria-selected="false">Sejarah</button>
-                        <button class="nav-link border-bottom" id="v-pills-third-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-third" type="button" role="tab" aria-controls="v-pills-third"
-                            aria-selected="false">Pimpinan</button>
-                        <button class="nav-link" id="v-pills-fourth-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-fourth" type="button" role="tab" aria-controls="v-pills-fourth"
-                            aria-selected="false">Akreditasi Institusi</button>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="tab-content p-4" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active text-" id="v-pills-first" role="tabpanel"
-                            aria-labelledby="v-pills-first-tab">
-                            <h3>VISI, MISI & TUJUAN</h3>
-                            <div class="divider"></div>
-                            <h5>VISI</h5>
-                            <ul>
-                                <li>Terwujudnya Universitas Unggul berbasis Nilai dan Karakter Bangsa pada Tahun 2035
-                                </li>
-                            </ul>
-                            <h5>MISI</h5>
-                            <ol type="1">
-                                <li>Melaksanakan Tri Dharma Perguruan Tinggi yang mengacu pada standar pendidikan tinggi
-                                    berskala nasional, regional, dan internasional.</li>
-                                <li>Menguatkan Tata Kelola Universitas yang baik (Good University Governance).</li>
-                                <li>Memberdayakan (empowering) sumberdaya universitas serta menjalin jejaring
-                                    (networking) dengan institusi dalam negeri dan luar negeri untuk mengoptimalkan
-                                    terselenggaranya Tri Dharma Perguruan Tinggi.</li>
-                                <li>Menanamkan dan menumbuhkan nilai-nilai moral, akademik, budaya, dan karakter bangsa
-                                    Indonesia bagi sivitas akademika</li>
-                            </ol>
-                            <h5>TUJUAN</h5>
-                            <ol type="1">
-                                <li>Menghasilkan lulusan yang kompetensinya diakui secara nasional maupun internasional.
-                                </li>
-                                <li>Menghasilkan karya-karya ilmiah yang mutunya diakui secara nasional maupun
-                                    internasional.</li>
-                                <li>Menerapkan karya-karya inovatif produktif melalui kegiatan pengabdian kepada
-                                    masyarakat dalam rangka peningkatan kualitas kehidupan manusia.</li>
-                                <li>Menjalankan Tata Kelola yang baik yang mengacu pada pengelolaan berstandar
-                                    Internasional (Good University Governance).</li>
-                                <li>Memiliki keunggulan SDM yang mampu diberdayakan untuk penguatan kompetensi Untag
-                                    Surabaya.</li>
-                                <li>Memiliki jejaring kerjasama yang mampu mengoptimalkan tercapainya Visi, Misi Untag
-                                    Surabaya.</li>
-                                <li>Memiliki civitas akademika yang beridentitas nilai dan karakter bangsa Indonesia.
-                                </li>
-                            </ol>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-second" role="tabpanel"
-                            aria-labelledby="v-pills-second-tab">
-                            <h3>SEJARAH</h3>
-                            <div class="divider"></div>
-                            <div style="text-align: justify; text-indent: 40px;">
-                                <p>
-                                    Badan penyelengara pendidikan adalah Yayasan Perguruan 17 agustus 1945 Surabaya yang
-                                    disingkat YPTA. YPTA didirikan pada tanggal 17 Agustus 1954 yang pada awalnya
-                                    membina
-                                    SMA dan SGA. Yayasan didirikan oleh beberapa orang yang berpandangan nasionalis yang
-                                    menyadari kondisi masyarakat dan bangsa Indonesia yang baru terlepas dari
-                                    penjajahan.
-                                    Para pendiri yayasan menyadari bahwa pada masa penjajahan Belanda maupun Jepang,
-                                    masyarakat yang dapat menikmati pendidikan sangat terbatas. Oleh karena itu
-                                    didirikan
-                                    yayasan yang bergerak di bidang pendidikan dalam rangka : "Ikut seta mencerdaskan
-                                    kehidupan bangsa dalam rangka mengentas masyarakat dari kebodohan dan kemiskinan
-                                    untuk
-                                    mewujudkan masyarakat adil dan makmur". Pada tanggal 10 november 1958, YPTA membuka
-                                    akademi administrasi Negara dan Niaga (AANN) dengan jumlah mahasiswa pada tahun
-                                    pertama
-                                    sebanyak 80 orang. Pemilihan jurusan disesuaikan dengan kebutuhan masyarakat pada
-                                    saat
-                                    itu dan penetapan kurikulum sesuai dengan arahan dari Lembaga Administrasi Negara
-                                    (LAN)
-                                    di Jakarta.
-                                </p>
-                                <p>
-                                    Pada tahun 1962 AANN Surabaya digabung dengan Universitas 17 Agustus 1945 (UNITA)
-                                    Jakarta dengan kedudukan sebagai cabang dengan nama “Akademi Administrasi Negara dan
-                                    Niaga Universitas 1945 Cabang Surabaya disingkat AKADIANN.
-                                </p>
-                                <p>
-                                    Pada tahun 1964 AKADIANN berkembang menjadi Fakultas Ketatanegaraan dan
-                                    Ketataniagaan
-                                    (FKK). Selama periode 1963/1966 berdiri Fakultas Ekonomi, Fakultas Teknik Sipil,
-                                    Fakultas Sosial Politik Jurusan Publisistik dan Fakultas Kedokteran Hewan. Semua
-                                    fakultas tersebut bersatus terdaftar dan merupakan cabang dari Universitas 17
-                                    Agustus
-                                    1945 Jakarta.
-                                </p>
-                                <p>Dengan dibentuknya Yayasan Perguruan 17 Agustus 1945 Surabaya dengan Akta Notaris R.
-                                    Yuliman Reksohadi No. 14 tanggal 30 Mei 1966 dan mendasarkan pada UU No. 22 Tahun
-                                    1961 tentang Perguruan Tinggi (Lembaran Negara Tahun 1961 No. 302) Untag Surabaya
-                                    memisahkan diri dan tidak lagi merupakan cabang dari Untag Jakarta.</p>
-                                <p>Pada tanggal 5 Oktober 1977 diterbitkan Surat Keputusan Rektor No. 789/UNTAG/K/1977
-                                    yang menetapkan Statuta Untag Surabaya dan menyatakan tidak berlaku lagi Statuta
-                                    Umum Universitas 17 Agustus 1945 Induk Jakarta yang ditetapkan di Semarang pada
-                                    tanggal 6 Juli 1969.</p>
-                                <p>Dalam perjalanannya, Fakultas-Fakultas tersebut ada yang mengalami perubahan,
-                                    penutupan, perkembangan dan penambahan sampai keberadaannya yang sekarang. Dengan
-                                    berlakunya UU No. 2 Tahun 1989 (Lembar Negara tahun 1989 No. 6) tentang Sistem
-                                    Pendidikan Nasional, maka UU No. 2 Tahun 1961 dinyatakan tidak berlaku lagi. Statuta
-                                    Untag Surabaya yang telah disahkan oleh Menteri Pendidikan dan kebudayaan RI dengan
-                                    SK. No.0722/u/1977, Tanggal 31 Desember 1977 pun harus disesuaikan kembali. Statuta
-                                    Untag Surabaya sekarang adalah statuta yang mengalami perubahan sesuai dengan
-                                    perkembangan yang ada terutama UU No. 20 Tahun 2003 dan PP No. 60. Tahun 1999.</p>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-third" role="tabpanel"
-                            aria-labelledby="v-pills-third-tab">
-                            <h3>PIMPINAN</h3>
-                            <div class="divider"></div>
-                            <img src="https://untag-sby.ac.id/uploads/media/Struktural_2021-rev5.jpg" alt="" class="img-fluid">
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-fourth" role="tabpanel"
-                            aria-labelledby="v-pills-fourth-tab">
-                            <h3>AKREDITASI INSTITUSI</h3>
-                            <div class="divider"></div>
-                            <img src="https://untag-sby.ac.id/uploads/media/Akreditasi_2018.png" alt="" width="100%">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </main>
-    <footer class="bg-danger">
-        <div class="container">
-            <div class="row text-white pt-4">
-                <div class="col-lg-3 col-sm-12">
-                    <img src="../assets/logo-footer.png" alt="" width="100%" class="img-fluid p-4">
-                </div>
-                <div class="col-lg-6 col-sm-12">
-                    <div class="contact text-center">
-                        <p>Jalan Semolowaru 45 Surabaya <br> 60118, Jawa Timur, Indonesia <br> 031 593 1800 <br>
-                            humas@untag-sby.ac.id</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-12">
-                    <div class="sosmed float-lg-end">
-                        <h5 class="fw-bold">Sosial Media</h5>
-                        <div class="d-flex">
-                            <h1><i class="bi bi-twitter "></i></h1>
-                            <h1><i class="bi bi-facebook mx-3"></i></h1>
-                            <h1><i class="bi bi-instagram me-3"></i></h1>
-                            <h1><i class="bi bi-youtube"></i></h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container pb-1">
-            <hr class="text-white" style="height: 5px;">
-            <p class="text-center text-white">Copyright @ 2022 by Team Gobber</p>
-        </div>
-    </footer>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-        -->
-    <script src="./scripts/materialize.min.js"></script>
-    <script src="./scripts/nav.js"></script>
-
-</body>
-
-</html>
+</div>
