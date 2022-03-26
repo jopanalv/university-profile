@@ -4,6 +4,12 @@
     background-color: #c4c4c4;
 }
 
+.header {
+    background-image: url("../assets/untag.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .navbar-brand {
     background-image: url('/assets/brand-bg.svg');
     background-size: 120%;
@@ -35,7 +41,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+/* Custom Nav tabs  */
 .nav-link {
     color: black;
 }
@@ -45,6 +51,7 @@
     background-color: #dc3545 !important;
 }
 
+/* Video section  */
 #video {
     overflow: hidden;
     width: 100%;
@@ -67,3 +74,39 @@
     background-color: rgba(8, 27, 11, 0.3);
     z-index: 2;
   }
+
+  /*  Counter Section  */
+
+#counter {    
+    background-color: #ffb400;
+    background-image: url("https://untag-sby.ac.id/assets/edu/images/80untag123.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 0;
+}
+#counter .count {
+    width: 200px;
+    padding: 20px;
+    background: rgba(255, 41, 41, 0.3);
+    color: #fff;
+    text-align: center;
+}
+.count h4 {
+    color: #fff;
+	font-size: 16px;
+	margin-top: 0;
+}
+#counter .count .fa {
+    font-size: 40px;
+    display: block;
+    color: #fff;
+}
+#counter .number {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}

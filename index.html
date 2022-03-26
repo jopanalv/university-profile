@@ -43,19 +43,19 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">E-LEARNING</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">BERITA</a>
-                                </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         BAHASA
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
-                                        <li><a class="dropdown-item" href="#">English</a></li>
-                                        <li><a class="dropdown-item" href="#">Wibu</a></li>
+                                        <li><a class="dropdown-item text-dark" href="#">Bahasa Indonesia</a></li>
+                                        <li><a class="dropdown-item text-dark" href="#">English</a></li>
+                                        <li><a class="dropdown-item text-dark" href="#">Wibu</a></li>
                                     </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">BERITA</a>
                                 </li>
                             </ul>
                         </div>
@@ -110,22 +110,6 @@
         crossorigin="anonymous"></script>
     <script src="./scripts/materialize.min.js"></script>
     <script src="./scripts/nav.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
-    <script>
-        // fungsi initialize untuk mempersiapkan peta
-        function initialize() {
-            var propertiPeta = {
-                center: new google.maps.LatLng(-7.298198468306019, 112.76676902552883),
-                zoom: 15,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-
-            var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
-        }
-
-        // event jendela di-load  
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
 </body>
 
 </html>
