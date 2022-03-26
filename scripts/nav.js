@@ -44,9 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 var content = document.querySelector("#body-content");
                 if (this.status == 200) {
                     content.innerHTML = xhttp.responseText;
-                    if ($('#galeriContent') && $('#galeriContent').length) {
-                        addGaleriContent();
-                    }
                 } else if (this.status == 404) {
                     content.innerHTML = "<p>Halaman tidak ditemukan.</p>";
                 } else {
@@ -56,17 +53,5 @@ document.addEventListener("DOMContentLoaded", function () {
         };
         xhttp.open("GET", "pages/" + page + ".html", true);
         xhttp.send();
-    }
-
-    function addGaleriContent() {
-        for (let i = 1; i <= 29; i++) {
-            $('#galeriContent').append(`
-                <div class="col">
-                    <div class="card" style="border: none;">
-                        <img src="./img/galeri/${i}.jpg" class="card-img-top h-100" alt="...">
-                    </div>
-                </div>
-            `);
-        }
     }
 });
