@@ -16,10 +16,8 @@ document.body.addEventListener('click', () => {
 
 window.onhashchange = async function () {
     if (window.innerDocClick) {
-        //Your own in-page mechanism triggered the hash change
         console.log('hash');
     } else {
-        //Browser back button was clicked
         await getBody();
         console.log('back button');
     }
