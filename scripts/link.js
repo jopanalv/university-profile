@@ -6,4 +6,3 @@ async function getDetailBerita() {
 
     main.innerHTML = detailBerita;
 }
-

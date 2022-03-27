@@ -1,9 +1,6 @@
-.logo {
-    width: 200px;
-    height: 90px;
-    background-color: #c4c4c4;
+.bg-untag {
+    background-color: #dc3545;
 }
-
 .header {
     background-image: url("../assets/untag.jpg");
     background-size: cover;
@@ -109,4 +106,32 @@
     font-size: 30px;
     font-weight: 700;
     margin: 0;
+}
+/* search  */
+.inputs {
+    position: relative
+}
+
+.form-custom {
+    text-indent: 15px;
+    border: none;
+    height: 45px;
+    border-radius: 0px;
+    border-bottom: 3px solid #eee
+}
+
+.form-custom:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #eee;
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 5px solid #dc3545
+}
+
+.inputs i {
+    position: absolute;
+    top: 14px;
+    left: 4px;
+    color: #b8b9bc
 }
